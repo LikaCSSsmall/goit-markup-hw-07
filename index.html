@@ -16,6 +16,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/media.css" />
   </head>
   <body>
     <header class="page-header">
@@ -34,9 +35,9 @@
             <li class="menu-item"><a href="#" class="link">Contacts</a></li>
           </ul>
         </nav>
-        <button type="button" class="mobile-menu-button">
-        <svg class="burger" width="32" height="22">
-          <use href="./images/icons.svg#icon-menu-hamburger"></use>
+      <button type="button" class="mobile-menu-button">
+        <svg class="burger-menu" width="32" height="22">
+          <use href="./images/icons.svg#icon-burger"></use>
         </svg>
       </button>
         <ul class="contacts-info list">
@@ -117,7 +118,7 @@
                 <div class="form-content">
                   <input class="check-input" id="user-policy" type="checkbox"  required name="privacy-policy" />
                   <label for="user-policy" class="modal-form-desc">
-                    I accept the terms and conditions of the  <a href="" class="policy-link">Privacy Policy</a>
+                    I accept the terms and conditions of the  <a href="#" class="policy-link">Privacy Policy</a>
                   </label>
                 </div>
                 <button type="submit" class="form-btn">Send</button>
@@ -186,47 +187,70 @@
           <h2 class="title-works">What are we doing</h2>
           <ul class="works-list list">
             <li class="list-item">
+              <picture>
+                <source srcset="./images/desktop-interface.jpg,  ./images/desktop-interface@2x.jpg">
               <img
                 class="no-gap"
                 src="./images/desktop-interface.jpg"
-                alt="Development of the desktop version of the site"
+                alt="retina picture"
                 width="360"
                 height="300"
               />
+               </picture>
             </li>
             <li class="list-item">
-              <img
-                class="no-gap"
-                src="./images/mobile-interface.jpg"
-                alt="Вevelopment of mobile applications"
-                width="360"
-                height="300"
-              />
-            </li>
-            <li class="list-item">
+               <picture>
+                <source srcset="./images/mobile-desktop.jpg,  ./images/mobile-desktop@2x.jpg">
               <img
                 class="no-gap"
                 src="./images/mobile-version.jpg"
-                alt="Development of the mobile version of the site"
+                alt="retina picture"
                 width="360"
                 height="300"
               />
+               </picture>
+            </li>
+            <li class="list-item">
+               <picture>
+                 <source srcset="./images/mobile-interface-descktop.jpg,  ./images/mobile-interface-descktop@2x.jpg">
+              <img
+                class="no-gap"
+                src="./images/mobile-interface.jpg"
+                alt="retina picture"
+                width="360"
+                height="300"
+              />
+               </picture>
             </li>
           </ul>
         </div>
       </section>
       <section class="section back">
-        <div class="container">
+        <div class="container back-container">
           <h2 class="title-our-team list">Our Team</h2>
           <ul class="cards list">
             <li class="card-bg">
+               <picture>
+                <source 
+                srcset="./images/mark-desctop.jpg 1x,  ./images/mark-desktop@2x.jpg 2x"
+                media="(min-width: 1200px)"
+                />
+                <source
+                 srcset="./images/mark-tablet.jpg 1x, ./images/mark-tablet@2x.jpg 2x"
+                 media="(min-width: 768px)"
+                 />
+                 <source
+                 srcset="./images/mark-mobile.jpg 1x, ./images/mark-mobile@2x.jpg 2x"
+                 media="(max-width: 767px)"
+                 />
               <img
                 class="our-team-person-image no-gap"
                 src="./images/mark-guerrero.jpg"
-                alt="Mark Guerrero"
+                alt="retina picture"
                 width="264"
                 height="260"
               />
+                </picture>
               <div class="card-contant">
                 <h3 class="card-title">Mark Guerrero</h3>
                 <p class="card-description">Product Designer</p>
@@ -443,7 +467,7 @@
         </div>
       </section>
     </main>
-    <!--<footer class="footer">
+    <footer class="footer">
       <div class="container content">
         <div class="footer-content">
           <a href="./index.html" class="footer-logo list">
@@ -506,7 +530,7 @@
           </form>
         </div>
       </div>
-    </footer>-->
+    </footer>
     <script src="./js/modal.js"></script>
   </body>
 </html>

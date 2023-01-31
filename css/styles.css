@@ -20,6 +20,27 @@ body {
   line-height: 1.5;
 }
 
+
+    .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
+
+.list{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
 /*------------- Header------------*/
 
 .page-header {
@@ -31,28 +52,7 @@ body {
   padding-right: 16px;
 }
 
-@media screen and (max-width: 767px) {
-  .nav-menu {
-    display: none;
-  }
-
-  .contacts-info {
-    display: none;
-  }
-}
-
-@media screen and (min-width: 480px) {
-  .container {
-    width: 426px;
-    margin: 0 auto;
-  }
-  .header-flex {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-
-  .logo {
+.logo {
     color: var(--primary-text-color);
     font-family: "Raleway";
     font-weight: 800;
@@ -70,19 +70,8 @@ body {
     color: var(--accent-color);
   }
 
-  .banner {
-    padding-top: 112px;
-    padding-bottom: 112px;
-    margin: 0 auto;
-    height: 432px;
-    background-image: url(../images/bg-mobile.jpg);
-    background-color: var(--primary-text-color);
-    background-size: cover;
-    background-repeat: no-repeat;
-    text-align: center;
-  }
 
-  .btn {
+.btn {
   color: var(--color-button);
   background-color: var(--accent-color);
   font-family: "Roboto";
@@ -107,7 +96,7 @@ body {
   background-color: var(--accent-color);
 }
 
- 
+
 .backdrop {
   position: fixed;
   left: 0;
@@ -316,191 +305,6 @@ body {
   margin-left: 5px;
 }
 
-  .title-page {
-    color: var(--color-button);
-    font-weight: 700;
-    font-size: 36px;
-    width: 318px;
-    text-transform: capitalize;
-    line-height: 1.11;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0;
-    margin-bottom: 72px;
-  }
-
-  .features {
-    padding-top: 96px;
-    padding-bottom: 96px;
-  }
-
-  .sprite-item{
-    display: none;
-  }
-
-  .features-list{
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-
-  .features-title {
-  margin-top: 0;
-  margin-bottom: 8px;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-}
-
-.features-list .features-item + .features-item{
-  margin-top: 72px;
-}
-
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-
-.features-description {
-  margin-top: 0;
-  margin-bottom: 0;
-  font-weight: 500;
-  max-width: 396px;
-  font-size: 16px;
-  line-height: 1.5;
-  color: #434455;
-
-}
-
-.section.works{
-  display: none;
-}
-
-.section {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
-
-.back {
-  background-color: var(--footer-logo);
-}
-
-.title-our-team {
-  margin-top: 0;
-  margin-bottom: 72px;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-}
-
-.cards{
-  list-style: none;
-  padding: 0;
-}
-
-.cards .card-bg + .card-bg {
-  margin-top: 72px;
-}
-
-.card-bg {
-  background-color: var(--color-button);
-  width: 264px;
-}
-
-.card-bg > .card-contant,
-.contant {
-  padding: 32px 16px;
-}
-
-.card-contant {
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-  border-radius: 0px 0px 4px 4px;
-}
-
-
-.card-title {
-  font-weight: 500;
-  text-align: center;
-  font-size: 20px;
-  margin-top: 0;
-  margin-bottom: 8px;
-  line-height: 1.2;
-}
-
-.card-description {
-  text-align: center;
-  margin-top: 0;
-  margin-bottom: 8px;
-}
-
-.card-sprites {
-  list-style: none;
-  padding: 0;
-  display: flex;
-  justify-content: space-between;
-}
-
-.sprite-link {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background-color: var(--accent-color);
-  transition: background-color var(---timing-function);
-}
-
-.sprite-link:is(:hover, :focus, :active) {
-  background-color: var(--hover-color);
-}
-
-.section-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.1;
-  text-align: center;
-  letter-spacing: 0.02em;
-  margin-bottom: 72px;
-  text-transform: capitalize;
-}
-
-.customer-sprites {
- list-style: none;
- padding: 0;
-}
-
-.customer-sprites-item {
-    width: calc((100% - 16px) / 2);
-}
-
-.customer-list .customer-sprites-item + .customer-sprites-item{
-  margin-top: 72px;
-}
-
-.customer-link {
-  color: var(--hover-color);
-  padding: 16px 32px;
-  border: 1px solid var(--secondary-border-color);
-  border-radius: 4px;
-  display: block;
-   width: 199px;
-   height: 100%;
-  fill: var(--secondary-border-color);
-  transition: border var(---timing-function), fill var(---timing-function);
-}
-
 .customer-link:is(:hover, :focus) {
   border: 1px solid var(--hover-color);
   fill: var(--hover-color);
@@ -515,49 +319,18 @@ body {
 }
 
 
-}
-
-@media screen and (min-device-pixel-ratio: 3) and (max-width: 767px),
-  screen and (min-resolution: 192dpi) and (max-width: 767px),
-  screen and (min-resolution: 2dppx) and (max-width: 767px) {
-  .banner {
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
-      url(../images/bg-mobile@2x.jpg);
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .container {
-    width: 766px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .container {
-    width: 1158px;
-    margin: 0 auto;
-  }
-}
-
 .mobile-menu-button {
   border: none;
   background-color: transparent;
   padding: 0;
   line-height: 0;
 }
-.burger {
-  stroke: currentColor;
-}
 
-/*.nav-menu{
+
+.nav-menu{
     display: flex;
     gap: 40px;
-  }*/
+  }
 
 /*.
 
@@ -760,19 +533,19 @@ body {
 
 /*-----------Footer----------*/
 
-/*.footer {
+.footer {
   padding-top: 100px;
   padding-bottom: 100px;
   background-color: var(--primary-text-color);
 }
 
-.content {
+/*.content {
   display: flex;
 }
 
-.footer-content {
+/*.footer-content {
   margin-right: 120px;
-}
+}*/
 
 .footer-logo {
   font-family: "Raleway";
@@ -792,6 +565,7 @@ body {
 .footer-title {
   font-weight: 500;
   font-size: 16px;
+   text-align: center;
   margin-top: 0;
   margin-bottom: 16px;
   line-height: 1.5;
@@ -856,10 +630,10 @@ body {
   background-color: var(--hover-color);
 }
 
-.form-field {
+/*.form-field {
   display: flex;
   gap: 24px;
-}
+}*/
 
 .form-input[type="email"] {
   padding: 8px 16px;
@@ -876,7 +650,7 @@ body {
   outline: 1px solid var(--accent-color);
   border: transparent;
   border-radius: 4px;
-}*/
+}
 
 /*---------Buttons--------*/
 
