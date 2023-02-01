@@ -10,6 +10,15 @@
   .section.works {
     display: none;
   }
+
+  .footer-wrap-title{
+    text-align: center;
+  }
+
+.form-input[type="email"]{
+    width: 100%;
+    margin-bottom: 16px;
+  }
 }
 
 @media screen and (min-width: 480px) {
@@ -104,7 +113,7 @@
   content: "";
   position: absolute;
   left: 0;
-  bottom: -1px;
+  bottom: -2px;
   display: block;
   width: 100%;
   height: 4px;
@@ -137,14 +146,11 @@
     padding-bottom: 96px;
 }
 
-.back-container{
+.section.back {
     padding-top: 96px;
     padding-bottom: 104px;
-  }
+}
 
-  .title-our-team{
-  padding-top: 96px;
-  }
 
 }
 
@@ -167,8 +173,28 @@
     margin: 0 auto;
   }
 
+  .contacts-info{
+    padding-top: 24px;
+    padding-bottom: 28px;
+    display: flex;
+  }
+
+  .contacts{
+  font-size: 16px;
+  line-height: 1.5;
+  }
+
+
   .contacts-info .contacts-item + .contacts-item {
   margin-left: 40px;
+}
+
+.form-input {
+  width: 264px;
+}
+
+.underline::after {
+  bottom: -4px;
 }
 
 .banner {
@@ -176,6 +202,12 @@
   padding-bottom: 188px;
   max-width: 1440px;
   height: 600px;
+}
+
+.title-page{
+  font-size: 56px;
+  line-height: 1.07;
+  width: 494px;
 }
 
   .sprite-item {
@@ -187,6 +219,10 @@
   border-radius: 4px;
   margin-top: 0;
   margin-bottom: 8px;
+}
+
+.section.works{
+  display: block;
 }
 
 .works-list {
@@ -208,6 +244,14 @@
   line-height: 1.11;
   text-align: center;
 }
+
+
+.cards {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
 .customer-sprites {
   display: flex;
   justify-content: space-between;
@@ -232,9 +276,30 @@
   height: 88px;
 }
 
-
 .footer {
   padding-top: 100px;
   padding-bottom: 100px;
 }
+
+.form-field {
+  display: flex;
+  gap: 24px;
+}
+
+.content {
+  display: flex;
+}
+
+.footer-content {
+  margin-right: 120px;
+}
+
+.footer-wrap {
+margin-left: 80px;
+}
+
+.footer-social{
+  margin: 0;
+}
+
 }

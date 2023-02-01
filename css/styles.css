@@ -20,6 +20,9 @@ body {
   line-height: 1.5;
 }
 
+.no-gap {
+  display: block;
+}
 
     .visually-hidden {
     position: absolute;
@@ -425,12 +428,6 @@ body {
     text-align: center;
   }
 
-/*.cards {
-  display: flex;
-  align-items: center;
-  gap: 24px;
-}*/
-
 
 .card-bg > .card-contant,
 .contant {
@@ -562,14 +559,6 @@ body {
 }
 
 
-.footer-btn {
-    margin-left: auto;
-    margin-right: auto;
-    font-weight: 500;
-    margin-top: 16px;
-}
-
-
 .footer-logo {
   font-family: "Raleway";
   display: block;
@@ -633,7 +622,6 @@ body {
   line-height: 1.5;
   color: var(--color-button);
   margin-bottom: 16px;
-  text-align: center;
   letter-spacing: 0.02em;
 }
 
@@ -644,7 +632,6 @@ body {
     gap: 16px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 16px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -663,14 +650,9 @@ body {
   background-color: var(--hover-color);
 }
 
-/*.form-field {
-  display: flex;
-  gap: 24px;
-}*/
 
 .form-input[type="email"] {
   padding: 8px 16px;
-  width: 100%;
   height: 40px;
   background-color: transparent;
   color: rgba(255, 255, 255, 0.6);
@@ -684,14 +666,6 @@ body {
   border: transparent;
   border-radius: 4px;
 }
-
-/*.content {
-  display: flex;
-}
-
-/*.footer-content {
-  margin-right: 120px;
-}*/
 
 
 
