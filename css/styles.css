@@ -297,6 +297,7 @@ body {
 }*/
 
 
+
 /*--------Banner---------*/
 
     .banner {
@@ -502,17 +503,6 @@ body {
   }
 
 
-/* .customer-link {
-  color: var(--hover-color);
-  padding: 16px 32px;
-  border: 1px solid var(--secondary-border-color);
-  border-radius: 4px;
-  display: flex;
-  gap: 24px;
-  fill: var(--secondary-border-color);
-  transition: border var(---timing-function), fill var(---timing-function);
-}*/
-
   .customer-link:is(:hover, :focus) {
   border: 1px solid var(--hover-color);
   fill: var(--hover-color);
@@ -642,8 +632,6 @@ body {
   border: transparent;
   border-radius: 4px;
 }
-
-
 
 /*---------Buttons--------*/
 

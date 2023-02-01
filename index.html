@@ -35,11 +35,15 @@
             <li class="menu-item"><a href="#" class="link">Contacts</a></li>
           </ul>
         </nav>
-      <button type="button" class="mobile-menu-button">
+      <button type="button" class="menu-button is-open" js-open-menu>
         <svg class="burger-menu" width="32" height="22">
-          <use href="./images/icons.svg#menu-burger"></use>
+          <use class="menu-open"  href="./images/icons.svg#menu-burger"></use>
+          <use class="menu-clouse" js-close-menu href="./images/icons.svg#icon-close-black"></use>
         </svg>
       </button>
+      <!--<div class="menu-container">
+        <div class="navigation"></div>
+      </div>-->
         <ul class="contacts-info list">
           <li class="contacts-item">
             <a href="mailto:info@devstudio.com" class="contacts"
@@ -50,12 +54,10 @@
             <a href="tel:+110001111111" class="contacts">+11 (000) 111-11-11</a>
           </li>
         </ul>
-       
       </div>
     </header>
     <main>
-
-     <section class="banner">
+      <section class="banner">
         <div class="container">
           <h1 class="title-page list">Effective Solutions for Your Business</h1>
           <button class="btn" type="button" data-modal-open>

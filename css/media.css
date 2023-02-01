@@ -52,12 +52,24 @@
     width: 100%;
     margin-bottom: 16px;
   }
+
+.menu-button  .menu-clouse{
+  display: none;
+}
+
+.menu-button.is-open .menu-clouse{
+  display: block;
+}
+
+.menu-button.is-open .menu-open{
+  display: none;
+}
 }
 
 
 @media screen and (min-width: 480px) {
   .container {
-    width: 428px;
+    width: 480px;
   }
 
 }
@@ -94,6 +106,10 @@
   align-items: center;
   margin-left: auto;
   margin-right: auto;
+}
+
+.menu-button{
+  display: none;
 }
 
   .contacts-info{
@@ -240,7 +256,6 @@
     display: flex;
     gap: 24px;
 }
-
 
 }
 
@@ -406,6 +421,5 @@ line-height: calc(24/20);
 .footer-wrap {
 margin-left: 80px;
 }
-
 
 }
