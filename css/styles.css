@@ -367,7 +367,6 @@ body {
     margin-top: 0;
     margin-bottom: 8px;
     font-weight: 700;
-    text-align: center;
     font-size: 36px;
     line-height: 1.11;
     text-transform: capitalize;
@@ -382,9 +381,6 @@ body {
     color: #434455;
   }
 
-  .features-list .features-item + .features-item {
-    margin-top: 72px;
-  }
 
   .section.works {
     display: none;
@@ -403,20 +399,9 @@ body {
     padding-bottom: 120px;
   }
 
-
-  .back-container{
-    padding-left: 82px;
-    padding-right: 82px;
-  }
-
-
   .cards {
     list-style: none;
     padding: 0;
-  }
-
-  .cards .card-bg + .card-bg {
-    margin-top: 72px;
   }
 
     .title-our-team {
@@ -500,10 +485,9 @@ body {
     padding: 0;
   }
 
-  .customer-sprites .customer-sprites-item + .customer-sprites-item{
-    margin-top: 72px;
-  }
-
+.customers-container {
+        width: 369px;
+}
 
   .customer-link {
     color: var(--hover-color);
@@ -516,6 +500,7 @@ body {
     fill: var(--secondary-border-color);
     transition: border var(---timing-function), fill var(---timing-function);
   }
+
 
 /* .customer-link {
   color: var(--hover-color);
@@ -547,15 +532,6 @@ body {
   padding-top: 96px;
   padding-bottom: 96px;
   background-color: var(--primary-text-color);
-}
-
-.footer-content {
-    margin-bottom: 72px;
-}
-
-
-.footer-social {
-    margin-bottom: 72px;
 }
 
 
