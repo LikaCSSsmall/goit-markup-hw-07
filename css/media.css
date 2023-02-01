@@ -64,6 +64,20 @@
 .menu-button.is-open .menu-open{
   display: none;
 }
+
+.section.portfolio{
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 16px;
+    column-gap: 24px;
+    margin-bottom: 48px;
+}
+
 }
 
 
@@ -257,6 +271,23 @@
     gap: 24px;
 }
 
+.section.portfolio{
+  padding-top: 64px;
+  padding-bottom: 96px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 64px;
+  gap: 24px;
+}
+
+.portfolio-container{
+  width: 774px;
+}
+
 }
 
 @media screen and (min-device-pixel-ratio: 3) and (min-width: 768px),
@@ -420,6 +451,12 @@ line-height: calc(24/20);
 
 .footer-wrap {
 margin-left: 80px;
+}
+
+.section.portfolio{
+ padding-top: 96px;
+ padding-bottom: 120px;
+
 }
 
 }

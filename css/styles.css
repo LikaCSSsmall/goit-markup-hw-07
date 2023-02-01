@@ -635,13 +635,7 @@ body {
 
 /*---------Buttons--------*/
 
-/*.buttons {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 72px;
-  gap: 24px;
-}
+
 
 .btn-products {
   color: var(--accent-color);
@@ -669,11 +663,11 @@ body {
 
 .btn-products:active {
   background-color: var(--accent-color);
-}*/
+}
 
 /*----------Section-product--------*/
 
-/*.product {
+.product {
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
@@ -748,4 +742,4 @@ body {
   color: var(--secondary-color);
   margin-top: 0;
   margin-bottom: 0;
-}*/
+}
