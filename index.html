@@ -20,11 +20,11 @@
   </head>
   <body>
     <header class="page-header">
-      <div class="container header-flex">
+      <div class="container header-container">
+        <a href="./index.html" class="logo list">
+          <span class="accent-color">Web</span>Studio</a
+          ></a>
         <nav class="main-nav">
-          <a href="./index.html" class="logo list">
-            <span class="accent-color">Web</span>Studio</a
-          >
           <ul class="nav-menu list">
             <li class="menu-item">
               <a href="./index.html" class="link underline">Studio</a>
@@ -37,7 +37,7 @@
         </nav>
       <button type="button" class="mobile-menu-button">
         <svg class="burger-menu" width="32" height="22">
-          <use href="./images/icons.svg#icon-burger"></use>
+          <use href="./images/icons.svg#menu-burger"></use>
         </svg>
       </button>
         <ul class="contacts-info list">
@@ -182,13 +182,13 @@
           </ul>
         </div>
       </section>
-     <section class="section works">
+      <section class="section works">
         <div class="container">
           <h2 class="title-works">What are we doing</h2>
           <ul class="works-list list">
             <li class="list-item">
               <picture>
-                <source srcset="./images/desktop-interface.jpg,  ./images/desktop-interface@2x.jpg">
+                <source srcset="./images/desktop-interface.jpg 1x,  ./images/desktop-interface@2x.jpg 2x">
               <img
                 class="no-gap"
                 src="./images/desktop-interface.jpg"
@@ -200,7 +200,7 @@
             </li>
             <li class="list-item">
                <picture>
-                <source srcset="./images/mobile-desktop.jpg,  ./images/mobile-desktop@2x.jpg">
+                <source srcset="./images/mobile-desktop.jpg 1x,  ./images/mobile-desktop@2x.jpg 2x">
               <img
                 class="no-gap"
                 src="./images/mobile-version.jpg"
@@ -212,7 +212,7 @@
             </li>
             <li class="list-item">
                <picture>
-                 <source srcset="./images/mobile-interface-descktop.jpg,  ./images/mobile-interface-descktop@2x.jpg">
+                 <source srcset="./images/mobile-interface-descktop.jpg 1x,  ./images/mobile-interface-descktop@2x.jpg 2x">
               <img
                 class="no-gap"
                 src="./images/mobile-interface.jpg"
@@ -234,15 +234,15 @@
                 <source 
                 srcset="./images/mark-desctop.jpg 1x,  ./images/mark-desktop@2x.jpg 2x"
                 media="(min-width: 1200px)"
-                />
+                >
                 <source
                  srcset="./images/mark-tablet.jpg 1x, ./images/mark-tablet@2x.jpg 2x"
                  media="(min-width: 768px)"
-                 />
+                 >
                  <source
                  srcset="./images/mark-mobile.jpg 1x, ./images/mark-mobile@2x.jpg 2x"
                  media="(max-width: 767px)"
-                 />
+                 >
               <img
                 class="our-team-person-image no-gap"
                 src="./images/mark-guerrero.jpg"
