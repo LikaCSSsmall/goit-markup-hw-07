@@ -293,12 +293,12 @@ a {
   margin-left: 5px;
 }
 
-/*.mobile-menu-button {
+.menu-button {
   border: none;
   background-color: transparent;
   padding: 0;
   line-height: 0;
-}*/
+}
 
 /*.menu-button  .menu-close{
   display: none;
@@ -322,6 +322,16 @@ a {
   height: 100%;
   z-index: 1000;
   background-color: var(--color-button);
+
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.menu-container.is-open{
+  opacity: 1;
+  visibility: visible;
+  pointer-events: visible;
 }
 
 .menu-link{
@@ -346,9 +356,6 @@ color: var(--primary-text-color);
 
 .mobile-menu-close{
   position: absolute;
-  top:40px;
-  right: 40px;
-  
 }
 
 .mobile-container{
