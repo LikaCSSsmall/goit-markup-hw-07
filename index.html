@@ -35,15 +35,25 @@
             <li class="menu-item"><a href="#" class="link">Contacts</a></li>
           </ul>
         </nav>
-      <button type="button" class="menu-button is-open" js-open-menu>
+      <button type="button" class="menu-button" data-menu-open>
         <svg class="burger-menu" width="32" height="22">
-          <use class="menu-open"  href="./images/icons.svg#menu-burger"></use>
-          <use class="menu-clouse" js-close-menu href="./images/icons.svg#icon-close-black"></use>
+          <use  href="./images/icons.svg#menu-burger"></use>
         </svg>
       </button>
-      <!--<div class="menu-container">
-        <div class="navigation"></div>
-      </div>-->
+      <div class="menu-container" data-menu>
+        <div class="container mobile-container">
+          <button  type="button" class="mobile-menu-close btn-close" data-menu-close>
+                <svg width="8" height="8">
+                  <use href="./images/icons.svg#icon-close-black"></use>
+                </svg>
+            </button>
+            <ul class="menu-navigation list">
+            <li class="menu-navigation-item"><a href="./index.html" class="menu-link">Studio</a></li>
+            <li class="menu-navigation-item"><a href="./portfolio.html" class="menu-link">Portfolio</a></li>
+            <li class="menu-navigation-item"><a href="#" class="menu-link">Contacts</a></li>
+            </ul>
+        </div>
+      </div>
         <ul class="contacts-info list">
           <li class="contacts-item">
             <a href="mailto:info@devstudio.com" class="contacts"

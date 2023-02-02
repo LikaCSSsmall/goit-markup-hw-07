@@ -44,6 +44,10 @@ body {
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 /*------------- Header------------*/
 
 .page-header {
@@ -296,7 +300,61 @@ body {
   line-height: 0;
 }*/
 
+/*.menu-button  .menu-close{
+  display: none;
+}
 
+.menu-button.is-open .menu-close{
+  display: block;
+}
+
+.menu-button.is-open .menu-open{
+  display: none;
+}*/
+
+
+
+.menu-container{
+  position: fixed;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  background-color: var(--color-button);
+}
+
+.menu-link{
+font-weight: 700;
+font-size: 36px;
+line-height: calc(40/36);
+text-transform: capitalize;
+color: var(--primary-text-color);
+}
+
+.menu-navigation-item {
+  margin-top: 40px;
+}
+
+.menu-link:is(:hover, :focus) {
+  color: var(--hover-color);
+}
+
+.menu-link:active {
+  color: var(--accent-color);
+}
+
+.mobile-menu-close{
+  position: absolute;
+  top:40px;
+  right: 40px;
+  
+}
+
+.mobile-container{
+  padding: 40px;
+  position: relative;
+}
 
 /*--------Banner---------*/
 
@@ -485,10 +543,6 @@ body {
     list-style: none;
     padding: 0;
   }
-
-.customers-container {
-    width: 408px;
-}
 
   .customer-link {
     color: var(--hover-color);
