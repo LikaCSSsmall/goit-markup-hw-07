@@ -70,12 +70,8 @@
   padding-bottom: 48px;
 }
 
-.buttons {
-    display: flex;
-    flex-wrap: wrap;
-    row-gap: 16px;
-    column-gap: 24px;
-    margin-bottom: 48px;
+.buttons{
+  width: 430px;
 }
 
 }
