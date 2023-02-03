@@ -66,12 +66,6 @@ a {
   margin-right: auto;
 }
 
-    .header-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-
 .logo {
     color: var(--primary-text-color);
     font-family: "Raleway";
@@ -394,6 +388,11 @@ color: currentColor;
     margin-left: auto;
     margin-right: auto;
     background-repeat: no-repeat;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/bg-mobile.jpg);
     text-align: center;
     background-size: cover;
     background-position: center;
@@ -615,7 +614,6 @@ color: currentColor;
   text-transform: uppercase;
   font-weight: 800;
   font-size: 21px;
-  text-align: center;
   text-decoration: none;
   margin-top: 0;
   margin-bottom: 16px;

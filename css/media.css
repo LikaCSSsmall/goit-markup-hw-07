@@ -7,6 +7,12 @@
     display: none;
   }
 
+    .header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
   .features-title{
     text-align: center;
   }
@@ -34,6 +40,10 @@
     justify-content: center;
     column-gap: 24px;
     row-gap: 72px;
+}
+
+.footer-logo{
+  text-align: center;
 }
 
   .footer-wrap-title{
@@ -69,17 +79,9 @@
 
 }
 
-@media screen and (min-width: 320px) {
-  .container {
-    width: 320px;
-  }
-
-}
-
-
 @media screen and (min-width: 480px) {
   .container {
-    width: 428px;
+    width: 480px;
   }
 
   .banner{
@@ -107,7 +109,7 @@
 
 @media screen and (min-width: 768px) {
   .container {
-    width: 766px;
+    width: 768px;
   }
 
   .header-container{
@@ -319,15 +321,25 @@
     width: 1158px;
   }
 
-  .contacts-info{
-    padding-top: 24px;
-    padding-bottom: 28px;
-    display: flex;
+  .logo{
+    margin-right: 76px;
+  }
+ 
+  .main-nav{
+    margin: 0;
   }
 
   .contacts{
   font-size: 16px;
   line-height: 1.5;
+  }
+
+
+ .contacts-info{
+    padding-top: 24px;
+    padding-bottom: 28px;
+    display: flex;
+    margin-left: auto;
   }
 
 
@@ -391,6 +403,7 @@
 .title-works {
   margin-top: 0;
   margin-bottom: 72px;
+  text-transform: capitalize;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
