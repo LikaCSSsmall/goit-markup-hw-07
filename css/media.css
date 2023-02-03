@@ -320,13 +320,10 @@
   .container {
     width: 1158px;
   }
-
-  .logo{
-    margin-right: 76px;
-  }
  
   .main-nav{
     margin: 0;
+    margin-left: 76px;
   }
 
   .contacts{
@@ -335,7 +332,7 @@
   }
 
 
- .contacts-info{
+.contacts-info{
     padding-top: 24px;
     padding-bottom: 28px;
     display: flex;
