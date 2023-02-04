@@ -259,12 +259,17 @@
   width: 264px;
 }
 
+.customers-container {
+    width: 582px;
+}
+
 .customer-sprites {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 24px;
 }
+
 
 .content {
     width: 552px;
@@ -318,7 +323,7 @@
 
 @media screen and (min-width: 1200px) {
   .container {
-    width: 1158px;
+    width: 1200px;
   }
  
   .main-nav{
@@ -385,9 +390,27 @@
   padding-bottom: 0;
 }
 
+.features-list {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 24px;
+}
+
+.features-title{
+font-weight: 500;
+font-size: 20px;
+color: #2E2F42;
+line-height: calc(24/20);
+}
+
+.features-description{
+  font-weight: 400;
+  letter-spacing: 0.02em;
+}
+
 .works-list {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   gap: 24px;
 }
@@ -407,23 +430,11 @@
   text-align: center;
 }
 
-.features-list {
-    display: flex;
-    flex-wrap: nowrap;
-    gap: 24px;
-}
-
-.features-title{
-font-weight: 500;
-font-size: 20px;
-color: #2E2F42;
-line-height: calc(24/20);
-}
 
 .cards {
   display: flex;
   align-items: center;
-  flex-wrap: nowrap;
+  justify-content: space-between;
   gap: 24px;
 }
 
@@ -456,11 +467,9 @@ line-height: calc(24/20);
 }
 
 .content {
-  display: flex;
-}
-
-.container.content{
-  flex-wrap: nowrap; 
+    display: flex;
+    justify-content: space-between;
+    gap:0;
 }
 
 .footer-content {
