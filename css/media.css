@@ -79,6 +79,40 @@
 
 }
 
+@media screen and (max-width: 320px) {
+
+  .container {
+    width: 320px;
+    overflow-x: hidden;
+  }
+
+  .menu-contacts-tel {
+    font-size: 25px; 
+  }  
+
+  .banner{
+     background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/bg-mobile.jpg);
+  }
+}
+
+
+@media screen and (min-device-pixel-ratio: 3) and (max-width: 320px),
+  screen and (min-resolution: 192dpi) and (max-width: 320px),
+  screen and (min-resolution: 2dppx) and (max-width: 320px) {
+  .banner {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/bg-mobile@2x.jpg);
+  }
+}
+
+
 @media screen and (min-width: 480px) {
   .container {
     width: 480px;
