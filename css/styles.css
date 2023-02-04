@@ -404,8 +404,8 @@ color: currentColor;
   .title-page {
     color: var(--color-button);
     font-weight: 700;
-    font-size: 36px;
-    width: 318px;
+    font-size: 32px;
+    width: 288px;
     text-transform: capitalize;
     line-height: 1.11;
     margin-left: auto;
@@ -483,7 +483,10 @@ color: currentColor;
     background-color: var(--footer-logo);
   }
 
-
+ .back-container {
+    padding: 0 28px;
+  }
+  
   .section {
     padding-top: 120px;
     padding-bottom: 120px;

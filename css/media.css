@@ -29,10 +29,6 @@
     display: none;
   }
 
-  .back-container {
-  padding-left: 82px; 
-  padding-right: 82px; 
-}
 
 .customer-sprites {
     display: flex;
@@ -79,12 +75,17 @@
 
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) {
 
   .container {
     width: 320px;
     overflow-x: hidden;
   }
+
+  .menu-contacts-tel {
+    font-size: 24px;
+}
+
    
 
   .banner{
@@ -119,7 +120,19 @@
     width: 100%;
    }
 
+   .title-page{
+    font-size: 36px;
+    width: 318px;
+   }
+
+  .back-container {
+    width: 431px;
+    padding: 0 83px; 
+   }
+
   .banner{
+    padding-top: 108px;
+    padding-bottom: 108px;
      background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
@@ -145,6 +158,7 @@
 @media screen and (min-width: 768px) {
   .container {
     width: 768px;
+    overflow: hidden;
   }
 
   .header-container{
@@ -277,10 +291,6 @@
     padding-bottom: 104px;
 }
 
-.back-container{
-  width: 582px;
-}
-
 .cards{
     display: flex;
     flex-wrap: wrap;
@@ -300,7 +310,7 @@
 .customer-sprites {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     gap: 24px;
 }
 
@@ -455,6 +465,10 @@ line-height: calc(24/20);
     padding-bottom: 120px;
 }
 
+.back-container{
+  padding: 0;
+}
+
 .title-works {
   margin-top: 0;
   margin-bottom: 72px;
@@ -470,6 +484,7 @@ line-height: calc(24/20);
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: nowrap;
   gap: 24px;
 }
 
