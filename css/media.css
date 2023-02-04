@@ -85,10 +85,7 @@
     width: 320px;
     overflow-x: hidden;
   }
-
-  .menu-contacts-tel {
-    font-size: 25px; 
-  }  
+   
 
   .banner{
      background-image: linear-gradient(
@@ -117,6 +114,10 @@
   .container {
     width: 480px;
   }
+
+   .modal-input{
+    width: 100%;
+   }
 
   .banner{
      background-image: linear-gradient(
@@ -194,7 +195,6 @@
 .contacts:active {
   color: var(--accent-color);
 }
-
 
 .link {
   color: var(--primary-text-color);
@@ -386,6 +386,7 @@
 .underline::after{
   bottom: -4px;
 } 
+
 
 .banner {
   padding-top: 188px;
