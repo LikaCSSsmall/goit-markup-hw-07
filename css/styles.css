@@ -113,7 +113,7 @@ a {
   top: 50%;
   left: 50%;
   max-width: 408vw;
-  max-height: 576vh;
+  max-height: 75%;
   overflow: auto;
   padding: 72px 25px 24px;
   background-color: #fcfcfc;
