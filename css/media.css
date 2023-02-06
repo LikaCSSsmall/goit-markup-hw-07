@@ -86,10 +86,8 @@
     font-size: 24px;
 }
 
-   
-
   .banner{
-     background-image: linear-gradient(
+    background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
@@ -116,14 +114,28 @@
     width: 480px;
   }
 
-   .modal-input{
-    width: 100%;
-   }
+    .header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
 
-   .title-page{
+  .modal-input{
+    width: 100%;
+  }
+
+  .nav-menu {
+    display: none;
+  }
+
+  .contacts-info{
+    display: none;
+  }
+
+    .title-page{
     font-size: 36px;
     width: 318px;
-   }
+  }
 
   .back-container {
     width: 431px;
@@ -160,6 +172,7 @@
     width: 768px;
     overflow: hidden;
   }
+
 
   .header-container{
     display: flex;
@@ -243,6 +256,10 @@
 
 .mobile-menu-button{
   display: none;
+}
+
+.modal{
+  min-height: 586px;
 }
 
 .banner{
@@ -533,7 +550,6 @@ margin-left: 80px;
 .section.portfolio{
 padding-top: 96px;
 padding-bottom: 120px;
-
 }
 
 }
