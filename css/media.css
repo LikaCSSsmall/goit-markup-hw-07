@@ -12,36 +12,6 @@
     display: none;
   }
 
-
-.customer-sprites {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    column-gap: 24px;
-    row-gap: 72px;
-}
-
-.footer-logo{
-  text-align: center;
-}
-
-  .footer-wrap-title{
-    text-align: center;
-  }
-
-.footer-content {
-    margin-bottom: 72px;
-}
-
-.footer-social {
-    margin-bottom: 72px;
-}
-
-.form-input[type="email"]{
-    width: 100%;
-    margin-bottom: 16px;
-  }
-
 .section.portfolio{
   padding-top: 48px;
   padding-bottom: 48px;
@@ -133,6 +103,36 @@
       ),
       url(../images/bg-mobile.jpg);
   }
+
+.customer-sprites {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 24px;
+    row-gap: 72px;
+}
+
+.footer-logo{
+  text-align: center;
+}
+
+  .footer-wrap-title{
+    text-align: center;
+  }
+
+.footer-content {
+    margin-bottom: 72px;
+}
+
+.footer-social {
+    margin-bottom: 72px;
+}
+
+.form-input[type="email"]{
+    width: 100%;
+    margin-bottom: 16px;
+  }
+
 
 }
 
