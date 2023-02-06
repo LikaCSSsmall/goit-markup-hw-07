@@ -261,7 +261,20 @@
     row-gap: 72px
 }
 
+.footer-logo{
+  text-align: left;
+}
+
 .footer-wrap{
+  margin: 0;
+}
+
+.footer-wrap-title{
+  text-align: left;
+}
+
+.form-input[type="email"] {
+  width: 264px;
   margin: 0;
 }
 

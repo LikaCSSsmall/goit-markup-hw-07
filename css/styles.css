@@ -489,9 +489,6 @@ color: currentColor;
     display: none;
   }
 
-  .features-list .features-item + .features-item {
-    margin-top: 72px;
-}
 
   /*-------------Back--------*/
 
@@ -552,10 +549,6 @@ color: currentColor;
     text-align: center;
     margin-top: 0;
     margin-bottom: 8px;
-  }
-
-  .cards .card-bg + .card-bg {
-    margin-top: 72px;
   }
   
 
@@ -649,6 +642,7 @@ color: currentColor;
   color: var(--footer-logo);
   text-transform: uppercase;
   font-weight: 800;
+  text-align: center;
   font-size: 21px;
   text-decoration: none;
   margin-top: 0;
@@ -660,6 +654,7 @@ color: currentColor;
   margin-left: auto;
   margin-right: auto;
   color: var(--border-color);
+  margin-bottom: 72px;
 }
 
 .footer-title {
@@ -673,13 +668,6 @@ color: currentColor;
   color: var(--color-button);
 }
 
-.footer-content {
-    margin-bottom: 72px;
-}
-
-.footer-social {
-    margin-bottom: 72px;
-}
 
 .form-input[type="email"]{
     width: 100%;
@@ -690,6 +678,7 @@ color: currentColor;
   display: flex;
   justify-content: center;
   gap: 16px;
+  margin-bottom: 72px;
 }
 
 .footer-sprites {
