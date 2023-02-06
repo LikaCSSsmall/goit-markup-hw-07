@@ -1,15 +1,5 @@
 @media screen and (max-width: 767px) {
-
-    .header-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-
-  .features-title{
-    text-align: center;
-  }
-
+  
   .features-list .features-item + .features-item {
     margin-top: 72px;
 }
@@ -133,7 +123,7 @@
     width: 431px;
     padding: 0 83px; 
   }
-  
+
   .banner{
     padding-top: 108px;
     padding-bottom: 108px;
