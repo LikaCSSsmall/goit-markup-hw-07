@@ -1,5 +1,5 @@
 @media screen and (max-width: 767px) {
-  
+
   .features-list .features-item + .features-item {
     margin-top: 72px;
 }
@@ -280,6 +280,10 @@
     flex-wrap: wrap;
     gap: 24px;
     row-gap: 72px;
+}
+
+.features-title{
+  text-align: left;
 }
 
 .features-description{
