@@ -66,6 +66,20 @@ a {
   margin-right: auto;
 }
 
+.nav-menu {
+    display: none;
+  }
+
+  .contacts-info {
+    display: none;
+  }
+
+    .header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
 .logo {
     color: var(--primary-text-color);
     font-family: "Raleway";

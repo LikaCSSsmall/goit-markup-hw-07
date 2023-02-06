@@ -1,11 +1,4 @@
 @media screen and (max-width: 767px) {
-  .nav-menu {
-    display: none;
-  }
-
-  .contacts-info {
-    display: none;
-  }
 
     .header-container {
     display: flex;
@@ -129,7 +122,7 @@
   }
 
   .contacts-info{
-    display: none;
+    display: block;
   }
 
     .title-page{
