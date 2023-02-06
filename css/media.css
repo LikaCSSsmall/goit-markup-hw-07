@@ -125,6 +125,10 @@
     display: none;
   }
 
+  .menu-container{
+    display: none;
+  }
+
     .title-page{
     font-size: 36px;
     width: 318px;
@@ -133,7 +137,7 @@
   .back-container {
     width: 431px;
     padding: 0 83px; 
-   }
+  }
 
   .banner{
     padding-top: 108px;
