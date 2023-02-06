@@ -489,6 +489,9 @@ color: currentColor;
     display: none;
   }
 
+  .features-list .features-item + .features-item {
+    margin-top: 72px;
+}
 
   /*-------------Back--------*/
 
@@ -550,6 +553,20 @@ color: currentColor;
     margin-top: 0;
     margin-bottom: 8px;
   }
+
+  .cards .card-bg + .card-bg {
+    margin-top: 72px;
+  }
+  
+
+.customer-sprites {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 24px;
+    row-gap: 72px;
+}
+
 
   .card-sprites {
     list-style: none;
@@ -656,6 +673,19 @@ color: currentColor;
   color: var(--color-button);
 }
 
+.footer-content {
+    margin-bottom: 72px;
+}
+
+.footer-social {
+    margin-bottom: 72px;
+}
+
+.form-input[type="email"]{
+    width: 100%;
+    margin-bottom: 16px;
+  }
+
 .footer-list {
   display: flex;
   justify-content: center;
@@ -686,6 +716,7 @@ color: currentColor;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  text-align: center;
   color: var(--color-button);
   margin-bottom: 16px;
   letter-spacing: 0.02em;
@@ -772,6 +803,21 @@ color: currentColor;
 }
 
 /*----------Section-product--------*/
+
+.section.portfolio{
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+.portfolio-container {
+    padding-right: 16px;
+    padding-left: 16px;
+}
+
+.buttons{
+  width: 430px;
+}
+
 
 .product {
   display: flex;
