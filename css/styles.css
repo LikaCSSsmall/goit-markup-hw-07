@@ -519,6 +519,11 @@ color: currentColor;
     text-align: center;
   }
 
+  .cards {
+    flex-direction: column;
+    display: flex;
+    gap: 72px;
+}
 
 .card-bg > .card-contant,
 .contant {

@@ -233,6 +233,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    flex-direction: row;
     row-gap: 72px;
     column-gap: 24px;
 }
@@ -300,6 +301,13 @@
   width: 774px;
 }
 
+.buttons{
+  width: 742px;
+}
+
+.product{
+ column-gap: 22px;
+}
 }
 
 
@@ -484,6 +492,14 @@ margin-left: 80px;
 .section.portfolio{
 padding-top: 96px;
 padding-bottom: 120px;
+}
+
+.buttons{
+  width: 1168px;
+}
+
+.product{
+  column-gap: 44px;
 }
 
 }
