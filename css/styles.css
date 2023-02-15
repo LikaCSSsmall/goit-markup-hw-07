@@ -25,8 +25,11 @@ body.menu-container{
 }
 
 
-.no-gap {
+img {
   display: block;
+  max-width: 100%;
+  height: auto;
+  width: 100%;
 }
 
     .visually-hidden {
@@ -354,7 +357,7 @@ color: var(--primary-text-color);
 
 .menu-contacts-tel {
     font-weight: 600;
-    font-size: 36px;
+     font-size: 24px;
     line-height: 1.11;
     text-transform: capitalize;
     display: block;
@@ -374,7 +377,7 @@ color: currentColor;
 .mobile-social-sprites{
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  gap:31px;
 }
 
 .menu-link:is(:hover, :focus) {
@@ -497,8 +500,8 @@ color: currentColor;
   }
 
 .back-container {
-    padding: 0 28px;
-  }
+    width: 264px;
+}
   
   .section {
     padding-top: 120px;
@@ -532,7 +535,7 @@ color: currentColor;
 
   .card-bg {
     background-color: var(--color-button);
-    width: 264px;
+    max-width: 100%;
   }
 
   .card-contant {
@@ -775,7 +778,7 @@ color: currentColor;
   font-weight: 500;
   font-size: 16px;
   border: 1px solid var(--border-color);
-  padding: 12px 24px;
+  padding: 12px 21px;
   border-radius: 4px;
   line-height: 1.5;
   cursor: pointer;
@@ -801,11 +804,6 @@ color: currentColor;
 .section.portfolio{
   padding-top: 48px;
   padding-bottom: 48px;
-}
-
-.portfolio-container {
-    padding-right: 16px;
-    padding-left: 16px;
 }
 
 .buttons{
